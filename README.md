@@ -1,2 +1,2 @@
 ```math
-$$\ce{$\fontspec[goombafont; color:red; z-index: -1; position: fixed; top: 0; left: 0; height: 100%; object-fit: cover; width: 100%; opacity: 0.7; background: url('https://raw.githubusercontent.com/sugoku/sugoku/main/ransomware.png'); animation: 1.5s linear infinite scale-in, 2s linear infinite rotate-keyframes;]{x0000}$}
+\ce{$\utf8[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.1; background: url('https://github.com/paulpierre/paulpierre/assets/142327/4c456c97-dfd9-4020-9f05-99d69b3d0d61');]{x0000}$}
