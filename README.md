@@ -6,10 +6,12 @@
 \begin{document}
 
 \begin{tikzpicture}[remember picture,overlay]
-    \node[inner sep=0pt,opacity=0.1] at (current page.center) {\includegraphics[width=130vw,height=100vh,keepaspectratio]{image.jpg}};
+    \node[inner sep=0pt,opacity=0.1] at (current page.center) {\includegraphics[width=130mm]{image.jpg}};
 \end{tikzpicture}
 
-Seu conteúdo aqui.
+\begin{center}
+    \Huge \textcolor{red}{x0000}
+\end{center}
 
 \end{document}
 
