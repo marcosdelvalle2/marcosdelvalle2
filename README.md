@@ -1,2 +1,17 @@
 ```math
-$$\ce{\newunicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.1; background: url('https://github.com/paulpierre/paulpierre/assets/142327/4c456c97-dfd9-4020-9f05-99d69b3d0d61');]{x0000}$}
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{animate}
+
+\begin{document}
+
+\begin{animateinline}[autoplay, loop, poster=first, controls]{5}
+    \multiframe{20}{i=0+1}{
+        \begin{tikzpicture}[remember picture,overlay]
+            \node[draw, circle, text=white, font=\huge, fill=red, text centered, minimum width=3cm, minimum height=3cm] (node) at (current page.center) {x0000};
+        \end{tikzpicture}
+    }
+\end{animateinline}
+
+\end{document}
