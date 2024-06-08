@@ -1,16 +1,16 @@
 ```math
-\ce{$\unicode[goombafont; color:red; pointer-events: none; z-index: -10; position: fixed; top: 0; left: 0; height: 100vh; object-fit: cover; background-size: cover; width: 130vw; opacity: 0.1; background: url('https://github.com/paulpierre/paulpierre/assets/142327/4c456c97-dfd9-4020-9f05-99d69b3d0d61');]{x0000}$}
-
-```math
 \documentclass{article}
+\usepackage{graphicx}
 \usepackage{tikz}
 
 \begin{document}
 
 \begin{tikzpicture}[remember picture,overlay]
-    \node[inner sep=0pt,opacity=0.1] at (current page.center) {\includegraphics[width=\paperwidth,height=\paperheight]{https://github.com/paulpierre/paulpierre/assets/142327/4c456c97-dfd9-4020-9f05-99d69b3d0d61}};
+    \node[inner sep=0pt,opacity=0.1] at (current page.center) {\includegraphics[width=130vw,height=100vh,keepaspectratio]{image.jpg}};
 \end{tikzpicture}
 
-Your content goes here.
+Seu conteúdo aqui.
 
 \end{document}
+
+
